@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    margin: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.hero{
+    height: 100vh;
+    background: linen;
+    display: flex;
+}
+.hero-left{
+    flex:1;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+    padding: 180px;
+    line-height: 1.1;
+}
+.hero-left h2{
+    color: rgba(82, 2, 2, 0.975);
+    font-family: "Noto Sans", serif;
+    font-size: 80px;
+    font-weight: 900;
+}
+.you h2{
+    display: flex;
+    justify-content: center;
+}
+
+.hero-latest-btn{
+    display: flex;
+ color: rgba(82, 2, 2, 0.975) ;
+ justify-content: center;
+    font-size: 40px;
+    font-weight: 900;
+    
+   
+}
+
+.hero-right {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-right img {
+    max-width: 100%;
+    height: auto;
+}
