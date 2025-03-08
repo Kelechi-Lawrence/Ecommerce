@@ -21,6 +21,8 @@
 
 .shop-icon{
     font-size: 2rem;
+    color: rgba(82, 2, 2, 0.975);
+ 
 }
 .nav-menu{
     display: flex;

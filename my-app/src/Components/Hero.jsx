@@ -2,7 +2,7 @@ import React from "react";
 import firstImage from "../assets/shopping.png";
 
 import { IoIosArrowDown } from "react-icons/io";
-import "./hero.css";
+import "../css/hero.css";
 const Hero = () => {
   return (
     <div className="hero">

@@ -1,0 +1,43 @@
+.nav-logo{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-weight: bolder;
+    
+}
+.nav-logo p{
+    font-weight: bolder;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+}
+
+.shop-icon{
+    font-size: 3rem;
+    color: rgba(82, 2, 2, 0.975);
+}
+.footer-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+}
+
+.footer-links ul{
+    display: flex;
+    gap: 30px;
+    list-style: none;
+    color:  rgb(75, 74, 74);
+    margin-bottom: 20px;
+}
+.copyright hr{
+    width: 700px;
+ 
+    margin: 20px 0px;
+}
+.socials ul{
+    display: flex;
+    gap: 20px;
+    list-style: none;
+    padding-top: 10px;
+}
