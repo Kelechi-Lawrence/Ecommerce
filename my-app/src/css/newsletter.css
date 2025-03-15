@@ -1,4 +1,4 @@
-.news-letter{
+.news-letter {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -9,20 +9,23 @@
     padding: 50px;
     height: 50vh;
     background: linear-gradient(180deg, rgba(255, 230, 255, 1) 0%, rgba(245, 220, 255, 0.5) 50%, rgba(255, 255, 255, 0) 100%);
-    box-sizing: border-box;;
+    box-sizing: border-box;
     margin-bottom: 10rem;
 }
-.news-letter h1{
+
+.news-letter h1 {
     font-size: 40px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     color: rgb(75, 74, 74);
 }
-.news-letter p{
-padding-top: 10px;
-color: rgb(131, 131, 131);
+
+.news-letter p {
+    padding-top: 10px;
+    color: rgb(131, 131, 131);
 }
-.news-letter input{
-    border: 1px solid rgb(131, 131, 131) ;
+
+.news-letter input {
+    border: 1px solid rgb(131, 131, 131);
     border-radius: 20px;
     color: rgb(131, 131, 131);
     height: 35px;
@@ -30,7 +33,8 @@ color: rgb(131, 131, 131);
     width: 250px;
     padding-left: 30px;
 }
-.news-letter button{
+
+.news-letter button {
     background-color: black;
     color: white;
     width: 100px;
@@ -39,4 +43,62 @@ color: rgb(131, 131, 131);
     height: 35px;
     margin-top: 10px;
     cursor: pointer;
+}
+
+@media (max-width: 768px) {
+    .news-letter {
+        width: 80%;
+        padding: 30px;
+        height: auto;
+        margin-top: 10rem;
+        margin-bottom: 5rem;
+    }
+
+    .news-letter h1 {
+        font-size: 30px;
+        text-align: center;
+    }
+
+    .news-letter p {
+        text-align: center;
+        font-size: 14px;
+    }
+
+    .news-letter input {
+        width: 220px;
+        height: 30px;
+    }
+
+    .news-letter button {
+        width: 90px;
+        height: 30px;
+    }
+}
+
+@media (max-width: 480px) {
+    .news-letter {
+        width: 90%;
+        padding: 20px;
+        margin-top: 5rem;
+        margin-bottom: 3rem;
+    }
+
+    .news-letter h1 {
+        font-size: 24px;
+    }
+
+    .news-letter p {
+        font-size: 12px;
+    }
+
+    .news-letter input {
+        width: 200px;
+        height: 28px;
+    }
+
+    .news-letter button {
+        width: 80px;
+        height: 28px;
+        font-size: 12px;
+    }
 }

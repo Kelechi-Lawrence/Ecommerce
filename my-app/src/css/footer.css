@@ -1,43 +1,107 @@
-.nav-logo{
-    display: flex;
-    align-items: center;
-    gap: 10px;
-    font-weight: bolder;
-    
-}
-.nav-logo p{
-    font-weight: bolder;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 30px;
-}
-
-.shop-icon{
-    font-size: 3rem;
-    color: rgba(82, 2, 2, 0.975);
-}
-.footer-container{
+.footer-container {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     height: 50vh;
+    padding: 20px;
+    width: 100%;
 }
 
-.footer-links ul{
+
+.nav-logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-weight: bolder;
+}
+
+.nav-logo p {
+    font-weight: bolder;
+    font-size: 30px;
+}
+
+.shop-icon {
+    font-size: 3rem;
+    color: rgba(82, 2, 2, 0.975);
+}
+
+
+.footer-links ul {
     display: flex;
     gap: 30px;
     list-style: none;
-    color:  rgb(75, 74, 74);
+    color: rgb(75, 74, 74);
     margin-bottom: 20px;
+    padding: 0;
 }
-.copyright hr{
-    width: 700px;
- 
-    margin: 20px 0px;
-}
-.socials ul{
+
+.socials ul {
     display: flex;
     gap: 20px;
     list-style: none;
     padding-top: 10px;
+}
+
+/* Copyright Section */
+.copyright hr {
+    width: 700px;
+    margin: 20px 0px;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+    .footer-container {
+        height: auto;
+        padding: 10px;
+    }
+
+    .nav-logo p {
+        font-size: 24px;
+    }
+
+    .shop-icon {
+        font-size: 2.5rem;
+    }
+
+    .footer-links ul {
+        gap: 20px;
+    }
+
+    .copyright hr {
+        width: 90%;
+    }
+}
+
+/* For Very Small Screens (Retains Same Layout, Just Shrinks Content) */
+@media (max-width: 480px) {
+    .footer-container {
+        height: auto;
+        padding: 10px;
+    }
+
+    .nav-logo p {
+        font-size: 20px;
+    }
+
+    .shop-icon {
+        font-size: 2rem;
+    }
+
+    .footer-links ul {
+        gap: 15px;
+        font-size: 14px;
+    }
+
+    .socials ul {
+        gap: 15px;
+    }
+
+    .copyright hr {
+        width: 80%;
+    }
+
+    .copyright p {
+        font-size: 12px;
+    }
 }

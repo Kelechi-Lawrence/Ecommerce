@@ -27,3 +27,18 @@
      align-items: center;
     gap: 30px;
 }
+    @media (max-width: 768px) {
+        .popular h1{
+            font-size: 30px;
+            align-items: center;
+            justify-content: center;
+        }
+        .popular{
+            height: max-content;
+        }
+        .popular-items{
+           height: auto;
+            display: flex;
+            flex-direction: column;
+        }       
+}
