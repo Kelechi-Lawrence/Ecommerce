@@ -1,48 +1,40 @@
-Shop NG - E-Commerce Website (React)
+# Shop NG - E-Commerce Website (React)
+
 Shop NG is a responsive and functional e-commerce website built with React.js. This project simulates a modern online shopping experience, allowing users to browse products, view detailed product pages, and manage their cart. Products are dynamically fetched from an external API.
 
-🚀 Features
-Home Page: Clean landing page with hero section and call to action
+## 🚀 Features
 
-Product Listing: Browse all available products fetched from an API
+- **Home Page**: Clean landing page with hero section and call to action  
+- **Product Listing**: Browse all available products fetched from an API  
+- **Product Details Page**: View full product information including image, price, and description  
+- **Add to Cart**: Clickable button to add products to the cart with real-time updates  
+- **Delete Button**: Allows users to remove items from the cart  
+- **Cart Page**: View selected items and remove items from cart  
+- **Alert Notification**: Brief confirmation alert pops up when a product is added to cart  
+- **Responsive Design**: Works seamlessly on mobile, tablet, and desktop  
 
-Product Details Page: View full product information including image, price, and description
 
-Add to Cart: Clickable button to add products to the cart with real-time updates
+## 🧰 Tech Stack
 
-Delete Button: Allows users to remove items from the cart
+**Frontend:**
 
-Cart Page: View selected items and remove items from cart
+- React.js  
+- JavaScript (ES6+)  
+- HTML5  
+- CSS3  
 
-Alert Notification: Brief confirmation alert pops up when a product is added to cart
+**Routing:**
 
-Responsive Design: Works seamlessly on mobile, tablet, and desktop
+- React Router DOM  
 
-Styled with regular CSS (no CSS frameworks used)
+**State Management:**
 
-🧰 Tech Stack
-Frontend:
+- useState and prop drilling  
 
-React.js
+**Icons:**
 
-JavaScript (ES6+)
+- React Icons  
 
-HTML5
+**API:**
 
-CSS3
-
-Routing:
-
-React Router DOM
-
-State Management:
-
-useState and prop drilling
-
-Icons:
-
-React Icons
-
-API:
-
-Products fetched from FakeStoreAPI 
+- Products fetched from FakeStoreAPI 
